@@ -13,5 +13,6 @@ pnpm --filter @workspace/portfolio run dev
 ## Deploy on Vercel
 
 1. Import this repo in [Vercel](https://vercel.com).
-2. Settings are in `vercel.json` (build output: `artifacts/portfolio/dist/public`).
-3. Add environment variables: `BASE_PATH=/` and `PORT=3000`.
+2. Set **Root Directory** to `.` (repo root, not `artifacts/portfolio`).
+3. Settings are in `vercel.json` (build output: `artifacts/portfolio/dist/public`).
+4. Redeploy after pushing — no manual env vars required.
