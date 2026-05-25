@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+@plugin "@tailwindcss/typography";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--border));
+  --color-ring: hsl(var(--accent));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--foreground));
+  --color-card-border: hsl(var(--border));
+
+  --color-primary: hsl(var(--accent));
+  --color-primary-foreground: hsl(220 13% 7%);
+  
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(220 13% 7%);
+
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Space Grotesk', sans-serif;
+}
+
+:root {
+  --background: 220 13% 7%;
+  --card: 220 13% 11%;
+  --foreground: 0 0% 95%;
+  --accent: 187 100% 50%;
+  --secondary: 270 100% 65%;
+  --muted: 220 13% 50%;
+  --border: 220 13% 18%;
+}
+
+.dark {
+  --background: 220 13% 7%;
+  --card: 220 13% 11%;
+  --foreground: 0 0% 95%;
+  --accent: 187 100% 50%;
+  --secondary: 270 100% 65%;
+  --muted: 220 13% 50%;
+  --border: 220 13% 18%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground overflow-x-hidden;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--border));
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted));
+  }
+}
+
+.glass {
+  background: rgba(28, 30, 34, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--secondary)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

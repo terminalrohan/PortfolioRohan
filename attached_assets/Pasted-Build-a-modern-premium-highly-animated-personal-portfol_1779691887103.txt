@@ -1,0 +1,418 @@
+Build a modern, premium, highly animated personal portfolio website for a Computer Science graduate and freelance frontend developer named “Rohan”.
+
+Tech Stack Requirements:
+
+React.js (JavaScript only, NOT TypeScript)
+Tailwind CSS
+Framer Motion for animations
+React Icons
+React Router if necessary
+Fully responsive design for mobile, tablet, and desktop
+Dark theme default
+Smooth scrolling navigation
+Clean component structure
+Modern glassmorphism + minimal premium UI
+Use reusable components
+Optimized for performance and smooth animations
+
+Overall Design Direction:
+Create a portfolio that feels modern, cinematic, premium, developer-focused, and visually impressive without looking childish or overloaded.
+
+Visual style inspiration:
+
+Modern SaaS landing pages
+Developer portfolios
+Apple-like spacing and cleanliness
+Subtle gradients
+Smooth hover interactions
+Animated section reveals
+Floating particles or subtle animated background
+Slight glowing accents
+Sticky navbar
+Smooth scroll snapping
+
+Color Palette:
+
+Background: Deep black / dark charcoal
+Accent: Cyan + purple gradient OR electric blue
+Text: White and soft gray
+Cards: Glassmorphism dark cards with subtle blur
+Hover states should feel premium
+
+Typography:
+
+Bold modern headings
+Large hero text
+Clean readable paragraph spacing
+
+Portfolio Sections Required:
+
+HERO SECTION
+Create a cinematic hero section with:
+My image on one side
+Animated intro text
+Name: “Rohan”
+Title rotating animation:
+Frontend Developer
+React Developer
+Data Analysis Enthusiast
+Freelance Developer
+Short tagline:
+“Building scalable frontend experiences and solving real-world business problems through technology.”
+
+Add CTA buttons:
+
+View Projects
+Download Resume
+Contact Me
+
+Add animated social icons:
+
+LinkedIn
+GitHub
+Email
+
+Add smooth scroll indicator animation.
+
+ABOUT ME SECTION
+Use a premium card layout.
+
+Content:
+“Computer Science graduate with hands-on experience in frontend development, along with strong skills in problem-solving, data handling, and process-oriented work.
+
+During freelance and internship experience, I have worked on building applications, debugging issues, and collaborating with teams to deliver reliable solutions. These experiences have helped me develop attention to detail, structured thinking, and the ability to manage tasks efficiently.”
+
+Add highlights:
+
+Freelance Experience
+Frontend Development
+Data Analysis
+AI Tools & Workflow
+Real Business Projects
+
+Add animated stats cards:
+
+Projects Completed
+Freelance Projects
+Technologies Used
+Certifications
+EXPERIENCE SECTION
+Create a vertical animated timeline layout.
+
+Experience 1:
+Frontend Software Engineer Intern
+Company: Coltri Marthub Pvt. Ltd.
+Duration: Aug 2024 – Oct 2024
+Location: Noida, India
+
+Responsibilities:
+
+Contributed to frontend development of a business website
+Built responsive UI components using React.js and JavaScript
+Worked on usability and client requirements
+Delivered polished client-approved live website
+
+Experience 2:
+Freelance Frontend Developer
+Company: Hitech Innotech Green Water Pvt Ltd
+Duration: July 2025 – Dec 2025
+Location: Delhi, India
+
+Responsibilities:
+
+Debugged and resolved UI issues
+Coordinated with third-party development teams
+Developed ThermalBill application
+Improved operational workflow and reduced business costs
+SKILLS SECTION
+Create animated categorized skill cards.
+
+Frontend:
+
+React.js
+JavaScript
+HTML5
+CSS3
+Tailwind CSS
+REST APIs
+
+Programming:
+
+Python
+SQL
+
+Data Analysis:
+
+Power BI
+Excel
+Pandas
+Matplotlib
+Machine Learning
+
+Tools:
+
+GitHub
+Postman
+VS Code
+MySQL
+
+Other:
+
+AI-Assisted Development
+Problem Solving
+Debugging
+UI Optimization
+
+Use animated progress bars or interactive hover effects.
+
+DEVELOPMENT PROJECTS SECTION
+Create premium project cards with hover animations, live links, GitHub links, tech stack badges, and project impact highlights.
+
+Project 1:
+Title: SHIV CARRIER Weighbridge Terminal
+Type: Freelance Project
+Duration: Apr 2026 – May 2026
+Live Link: shivcarrier-weighbridge.vercel.app
+
+Description:
+A browser-based weighbridge slip printing system optimized for dot-matrix printers. Built to replace expensive proprietary software and hardware while improving operational efficiency.
+
+Features:
+
+Real-time print preview
+Automated weight calculations
+Continuous-paper dot-matrix printing
+Smart workflow automation
+Slip history tracking
+Client-side architecture
+
+Tech Stack:
+React.js, TypeScript concepts, Tailwind CSS
+
+Business Impact:
+Reduced operational costs and removed dependency on expensive vendor software.
+
+Project 2:
+Title: ThermalBill – Tally Thermal Print App
+Type: Freelance Project
+Duration: Jul 2025 – Aug 2025
+Live Link: https://playful-empanada-fae0a4.netlify.app/
+
+Description:
+Browser-based thermal printing application for converting Tally XML invoices into editable thermal print formats.
+
+Features:
+
+XML invoice parsing
+Multi-file upload
+Dynamic print queue
+Live preview
+Custom print formatting
+
+Impact:
+Reduced paper waste and eliminated TDL integration costs.
+
+Tech Stack:
+React.js, Tailwind CSS, WebUSB API
+
+Project 3:
+Title: coINsight
+Type: College Minor Project
+Duration: Sep 2024 – Nov 2024
+Live Link: coinsight-one.vercel.app
+
+Description:
+Cryptocurrency dashboard displaying real-time top 100 crypto coins with analytics and comparison tools.
+
+Features:
+
+Real-time API data
+Interactive charts
+Coin comparison
+Responsive dashboard UI
+
+Tech Stack:
+React.js, Axios, Chart.js, JavaScript
+
+Project 4:
+Title: AI-Powered Interview Prep App
+Type: Personal Learning Project
+Live Link: interview-prep-mmsp.vercel.app/
+
+Description:
+Full-stack AI-powered interview preparation platform using Gemini AI API.
+
+Features:
+
+AI-generated interview Q&A
+JWT authentication
+Role-based sessions
+Personalized preparation
+
+Tech Stack:
+MERN Stack, Gemini AI API, Tailwind CSS
+
+Project 5:
+Title: B Music Production Portfolio
+Type: Freelance Project
+Duration: Jan 2026 – Apr 2026
+
+Description:
+A cinematic single-page portfolio website for a music studio and production brand.
+
+Features:
+
+Animated hero section
+Framer Motion interactions
+Embedded media sections
+Responsive navigation
+Social integrations
+
+Tech Stack:
+React.js, Tailwind CSS, Framer Motion, shadcn/ui
+
+DATA ANALYSIS PROJECTS SECTION
+Create a separate premium section specifically for analytics and ML projects.
+
+Project 1:
+Sales Analysis Dashboard
+Tech:
+Power BI, SQL, Excel
+
+Description:
+Interactive dashboard visualizing sales trends and customer behavior.
+
+Features:
+
+SQL aggregations and joins
+Excel data cleaning
+Power BI reporting dashboard
+
+GitHub:
+https://github.com/terminalrohan/PIZZA-DASHBOARD
+
+Project 2:
+Customer Churn Analysis
+Tech:
+Python, SQL, Power BI, Machine Learning
+
+Description:
+Predictive churn analysis system using Random Forest classification.
+
+Features:
+
+Customer retention insights
+Predictive ML model
+Interactive dashboards
+
+GitHub:
+https://github.com/terminalrohan/churn-Analysis
+
+Project 3:
+Banking Analysis
+Tech:
+Python, SQL, Power BI
+
+Description:
+Banking customer segmentation and retention analytics dashboard.
+
+GitHub:
+https://github.com/terminalrohan/banking-analysis
+
+Project 4:
+Driver Drowsiness Detection System
+
+Description:
+Computer vision-based safety system detecting real-time driver drowsiness.
+
+Features:
+
+OpenCV integration
+EAR detection algorithm
+Real-time alerts
+
+GitHub:
+https://github.com/terminalrohan/DDDS
+
+Tech Stack:
+Python, OpenCV, DLib, NumPy
+
+CERTIFICATIONS SECTION
+Create animated certification cards.
+
+Certifications:
+
+Prompt Engineering by Infosys Springboard
+Python by Infosys Springboard
+SQL by HackerRank
+JavaScript Essentials by Cisco
+Oracle University Certified AI Foundations Associate
+EDUCATION SECTION
+Use modern timeline cards.
+
+B.Tech in Computer Science Engineering (Minor: Artificial Intelligence)
+Maharaja Surajmal Institute of Technology (GGSIPU)
+Duration: Dec 2021 – May 2025
+CGPA: 8.540
+
+Relevant Coursework:
+
+Data Structures & Algorithms
+OOPs
+DBMS
+Operating Systems
+Computer Networks
+Software Engineering
+
+Optionally include schooling in a minimal compact format:
+
+Class 12 — Kendriya Vidyalaya Paschim Vihar — 76%
+Class 10 — Kendriya Vidyalaya Shakur Basti — 77.8%
+EXTRACURRICULAR SECTION
+Create achievement cards.
+Top 40 out of 1500+ teams — HackWithIndia 2024
+Volunteer at ENVA’24 (MSIT Fest)
+CONTACT SECTION
+Create premium contact section with:
+Contact form UI only (frontend only)
+Email
+Phone
+LinkedIn
+GitHub
+
+Contact Details:
+Phone: +91-9717921215
+Email: terminalrohan@gmail.com
+LinkedIn: https://www.linkedin.com/in/rohan-326698300/
+
+FOOTER
+Minimal premium footer with:
+Social icons
+Copyright
+“Designed & Developed by Rohan”
+
+ADDITIONAL REQUIREMENTS:
+
+Add smooth Framer Motion animations throughout
+Add section reveal animations on scroll
+Add loading animation at startup
+Add animated cursor glow or subtle mouse interaction
+Add scroll progress indicator
+Add responsive mobile navbar
+Add active nav section highlight
+Add hover effects everywhere
+Use modular clean folder structure
+Make code beginner-readable and maintainable
+Create clean reusable React components
+Add placeholder image path for profile photo
+Add comments in code for important sections
+
+IMPORTANT:
+
+Frontend only
+No backend required
+No fake statistics
+Keep everything professional and recruiter-friendly
+Make it feel like a premium modern developer portfolio, not a template clone
+Ensure animations are smooth and not laggy
+Optimize for deployment on Vercel
