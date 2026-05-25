@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaLinkedin, FaGithub, FaEnvelope, FaDownload } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
+import rohanPhoto from "../../assets/rohan-profile.jpg";
 
 const titles = [
   "Frontend Developer",
@@ -69,9 +70,11 @@ export default function Hero() {
                   Contact Me
                 </Button>
               </a>
-              <Button variant="outline" className="border-border hover:bg-white/5 px-6 py-6 rounded-full text-base font-semibold transition-all interactive group">
-                <FaDownload className="mr-2 group-hover:text-accent transition-colors" /> Resume
-              </Button>
+              <a href="https://rohan126cv.tiiny.site" target="_blank" rel="noopener noreferrer" className="interactive">
+                <Button variant="outline" className="border-border hover:bg-white/5 hover:text-accent px-6 py-6 rounded-full text-base font-semibold transition-all group">
+                  <FaDownload className="mr-2 group-hover:text-accent transition-colors" /> Resume
+                </Button>
+              </a>
             </div>
 
             <div className="flex items-center gap-6">
@@ -107,9 +110,13 @@ export default function Hero() {
               />
               
               {/* Avatar circle */}
-              <div className="absolute inset-8 rounded-full glass bg-gradient-to-br from-card/80 to-background flex items-center justify-center border border-white/10 shadow-[0_0_40px_rgba(0,0,0,0.5)] overflow-hidden group">
-                <div className="absolute inset-0 bg-gradient-to-br from-accent/20 to-secondary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <span className="text-8xl font-display font-bold text-gradient select-none">R</span>
+              <div className="absolute inset-8 rounded-full border border-white/10 shadow-[0_0_40px_rgba(0,255,255,0.15)] overflow-hidden group">
+                <img
+                  src={rohanPhoto}
+                  alt="Rohan"
+                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-br from-accent/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             </div>
           </motion.div>
